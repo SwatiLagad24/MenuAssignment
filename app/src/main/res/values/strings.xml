@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MenuAssignment</string>
+    <string name="btn_Next">Next</string>
+    <string name="btn_back">Back</string>
+    <string name="checkBox">enable</string>
+    <string name="Like_menu">Like</string>
+    <string name="dislike_menu">Dislike</string>
+    <string name="comment_menu">Comment</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string-array name="item_array">
+        <item>Food</item>
+        <item>Cosmetics</item>
+        <item>Grocery</item>
+        <item>Cloth</item>
+
+
+    </string-array>
+</resources>

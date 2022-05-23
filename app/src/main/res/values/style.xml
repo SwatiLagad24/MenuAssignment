@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="customButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">130dp</item>
+
+        <item name="android:text">@string/btn_Next</item>
+
+
+    </style>
+
+    <style name="customImage">
+        <item name="android:layout_width">339dp</item>
+        <item name="android:layout_height">348dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">28dp</item>
+        <item name="android:layout_marginLeft">36dp</item>
+
+        <item name="android:text">@string/btn_Next</item>
+    </style>
+    <style name="checkBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/checkBox</item>
+
+        <item name="android:layout_marginTop">64dp</item>
+        <item name="android:layout_marginLeft">66dp</item>
+
+
+    </style>
+
+</resources>

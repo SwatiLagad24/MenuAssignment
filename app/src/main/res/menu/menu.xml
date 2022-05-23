@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:id="@+id/a"
+        app:showAsAction="always"
+
+    android:title=" Context menu"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        >
+        <menu>
+
+
+
+    <item
+        android:id="@+id/addTocart"
+        android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+        android:title="@string/add_to_cart"/>
+
+
+    <item
+        android:id="@+id/like"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        app:showAsAction="never"
+
+        android:title="@string/Like_menu"/>
+
+
+
+    <item
+        android:id="@+id/dislike"
+        android:icon="@drawable/ic_baseline_sentiment_very_dissatisfied_24"
+        android:title="@string/dislike_menu"/>
+
+
+    <item
+        android:id="@+id/Comment"
+        android:icon="@drawable/ic_baseline_add_comment_24"
+        android:title="@string/comment_menu"/>
+
+    </menu>
+</item>
+
+</menu>
